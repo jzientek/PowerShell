@@ -1,0 +1,2 @@
+$Computers = Get-Content C:\Computerlist.txt
+Test-Connection $Computers | Out-File C:\Desktop\PingResults.txt
